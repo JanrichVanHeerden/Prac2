@@ -11,5 +11,6 @@ public class DebugTwo4
       cost = Double.parseDouble(costString);
       JOptionPane.showMessageDialog(null,"With " + TAX * 100 +
          "% tax,  purchase  is $" + (cost + cost * TAX));
+
    }
 }
